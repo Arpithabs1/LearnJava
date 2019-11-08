@@ -1,0 +1,26 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# project specific
+/reports/
+/screen-prints/
+/test-output/
+/drivers/
+*.log
+/bin/
+
+.metadata
