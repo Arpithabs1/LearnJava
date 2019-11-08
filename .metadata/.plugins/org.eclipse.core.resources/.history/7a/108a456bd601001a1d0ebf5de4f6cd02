@@ -1,0 +1,22 @@
+package ThreadConcepts;
+
+class Tables
+{
+	public void printTables(int a)
+	{
+		for(int i=1;1<=5;i++)
+		{
+			System.out.print(" Tables values are : "+ a*i)
+		}
+	}
+}
+
+public class WithOutSync {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}
