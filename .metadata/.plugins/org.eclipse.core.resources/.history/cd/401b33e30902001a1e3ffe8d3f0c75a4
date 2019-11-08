@@ -14,7 +14,7 @@ class Tables extends Thread
 class Thread1 
 {
 	Tables t1 = new Tables();
-	
+	t1.printTables(5);
 }
 
 public class WithOutSync {
