@@ -10,9 +10,4 @@ public class WithSync {
 	{
 		System.out.println("Adding method from Git1"); 
 	}
-        public void AddingMethod()
-        {
-          System.out.println("Adding line from Git2"); 
-        }
-
 }
