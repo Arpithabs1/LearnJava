@@ -6,5 +6,9 @@ public class WithSync {
 	{
     	System.out.println("Learning Git");  
 	}
+	public void AddMethod() 
+	{
+		System.out.println("Adding method from Git1"); 
+	}
 
 }
