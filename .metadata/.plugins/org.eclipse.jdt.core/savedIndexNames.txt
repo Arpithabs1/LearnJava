@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+C:\Users\AB056220\OneDrive - Cerner Corporation\Documents\Work\Java_learn\JavaToGit1\LearnJava\.metadata\.plugins\org.eclipse.jdt.core
 3023430483.index
-2662977388.index
 1857453461.index
 3630719722.index
 1274712717.index
