@@ -1,0 +1,25 @@
+package Basic;
+
+import java.util.Scanner;
+import java.util.Set;
+
+public class HCF {
+
+	public static void main(String[] args) 
+	{
+		TreeSet<int> set1 = new  TreeSet();
+      System.out.println("Enter the 1st digit");
+      System.out.println("Enter the 2nd digit");
+      Scanner scan = new Scanner(System.in);
+      int digit1= scan.nextInt();
+      int digit2=scan.nextInt();
+      for(int i=1;i<digit1;i++)
+      {
+    	  if(digit1%i==0)
+    	  {
+    		  
+    	  }
+      }
+	}
+
+}

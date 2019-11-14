@@ -1,0 +1,30 @@
+package Basic;
+
+import java.util.Scanner;
+
+public class FibonnociSeries {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter the digit");
+		Scanner scan = new Scanner(System.in);
+		int digit = scan.nextInt();
+		int sum = 1;
+		if(digit ==0)
+		{
+			System.out.println("Fib series for fib is :" + 0);
+		}
+		else
+		{
+			System.out.println("Fib series is : 0 1")
+			for(int i=1;i<digit;i++)
+			{
+				sum = sum + i;
+				System.out.print(sum + " ");
+			}
+			
+		}
+
+	}
+
+}

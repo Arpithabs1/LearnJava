@@ -1,0 +1,17 @@
+package Basic;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class NumberCount {
+
+	public static void main(String[] args) 
+	{
+      System.out.println("Enter multiple digit to count the positive, negative and zero's in the list");
+      Scanner scan = new Scanner(System.in);
+      ArrayList digitList = new ArrayList();
+      digitList.add(scan.nextInt());
+      System.out.println(digitList);
+	}
+
+}

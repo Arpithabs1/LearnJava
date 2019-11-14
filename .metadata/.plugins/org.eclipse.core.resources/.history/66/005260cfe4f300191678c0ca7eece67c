@@ -1,0 +1,33 @@
+package Basic;
+
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
+public class Palindrome {
+
+	public static void main(String[] args) 
+	{
+		int j =0;
+      System.out.println("Enter the string");
+      Scanner scan = new Scanner(System.in);
+      String valueEntered = scan.next();
+      char[] cha = valueEntered.toCharArray();
+      char[] chaNew = null;
+      for(int i = valueEntered.length(); i<=0 ;i++)
+      {
+    	  chaNew[j] = cha[i];
+    	  i--;
+    	  j++;
+      }
+      if(chaNew == cha)
+      {
+    	  System.out.println("The String is palindrome");
+      }
+      else
+      {
+    	  System.out.println("The String is not palindrome"); 
+      }
+
+	}
+
+}
