@@ -19,11 +19,11 @@ public class BinarySearch {
 		 value = scan.nextInt();
 	 }
 System.out.println(lst);
-	/* Iterator itr = lst.iterator();
+	   Iterator itr = lst.iterator();
 	 while(itr.hasNext())
 	 {
 		 System.out.print(itr.next());
-	 }*/
+	 }
 	 }
 
 }
